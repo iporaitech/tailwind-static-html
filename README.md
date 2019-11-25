@@ -23,8 +23,8 @@ It's relatively simple so for more info, just see the files in **src/** dir and 
 3. Copy all files from **dist/** to the S3 **website** bucket.
 4. Invalidate cache in related CloudFront using
    ```
-   /\*
-   /en/\*
+   /*
+   /en/*
    ```
 
 **TODO:** create GitHub Actions to automate the process from above.

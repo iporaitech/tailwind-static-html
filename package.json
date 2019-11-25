@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-html",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Simple boilerplate to create static html website styled with TailwindCSS",
   "main": "index.js",
   "repository": "git@github.com:iporaitech/tailwindcss-html.git",
