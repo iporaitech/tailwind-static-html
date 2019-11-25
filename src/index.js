@@ -3,13 +3,6 @@ import "./styles.css";
 // The lang attribute is set at compile time by html-webpack-plugin
 const PAGE_LANG = document.querySelector("html").lang;
 
-const busyGifs = [
-  "https://media.giphy.com/media/q6RoNkLlFNjaw/giphy.gif",
-  "https://media.giphy.com/media/25L8qEAZO20LK/giphy.gif",
-  "https://media.giphy.com/media/DZR39sOOQWP8A7UoVs/giphy.gif",
-  "https://media.giphy.com/media/11JTxkrmq4bGE0/giphy.gif"
-];
-
 const setCookie = (name, value, days) => {
   let expires = "";
   if (days) {
